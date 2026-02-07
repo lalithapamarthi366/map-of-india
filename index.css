@@ -1,0 +1,122 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background: #0E4DA4;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav .main-menu {
+    list-style: none;
+}
+
+nav .main-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav .main-menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 8px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #0E4DA4;
+}
+
+/* Main Content */
+.content {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.content h1 {
+    color: #0E4DA4;
+    margin-bottom: 10px;
+}
+
+.content img {
+    max-width: 100%;
+    margin: 15px 0;
+    padding:1500;
+}
+
+/* Featured Maps Cards */
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    background: #f7f7f7;
+    padding: 15px;
+    border: 1px solid #ddd;
+    width: 30%;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: #0E4DA4;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+  width:100%;
+    background: #0E4DA4;
+    color: white;
+    text-align: center;
+    height:auto;
+    min-height:unset;
+    
+}
+.content,img{
+    border-image-source: center;
+    font-size: medium;
+    padding-left: 100px;
+}
